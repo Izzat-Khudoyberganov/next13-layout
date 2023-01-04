@@ -7,6 +7,17 @@
       "esnext"
     ],
     "allowJs": true,
+    "baseUrl": ".",
+        "paths": {
+            "@/components/*": ["components/*"],
+            "@/Layout/*": ["Layout/*"],
+            "@/assets/*": ["assets/*"],
+            "@/styles/*": ["styles/*"],
+            "@/context/*": ["context/*"],
+            "@/hooks/*": ["hooks/*"],
+            "@/utils/*": ["utils/*"],
+            "@/redux/*": ["redux/*"],
+        },
     "skipLibCheck": true,
     "strict": false,
     "forceConsistentCasingInFileNames": true,
@@ -14,8 +25,8 @@
     "incremental": true,
     "esModuleInterop": true,
     "module": "esnext",
-    "resolveJsonModule": true,
     "moduleResolution": "node",
+    "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
     "plugins": [

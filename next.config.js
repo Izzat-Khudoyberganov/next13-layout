@@ -1,13 +1,7 @@
-/** @type {import('next').NextConfig} */
-
-const nextConfig = {
+/** @type {import("next").NextConfig} */
+module.exports = {
   reactStrictMode: true,
-  compiler: {
-    styledComponents: true,
-  },
   experimental: {
     appDir: true,
-  }
-}
-
-module.exports = nextConfig
+  },
+};
